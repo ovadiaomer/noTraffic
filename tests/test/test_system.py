@@ -63,6 +63,7 @@ class SystemTest(unittest.TestCase, ISystemTest):
     def test_low_bandwidth_connection(self):
         self.assertTrue(self.simulate_test_low_bandwidth_connection()["connection2"])
 
+
     def test_data_integrity(self):
         self.assertTrue(self.simulate_test_data_integrity()["data1"])
 
